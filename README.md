@@ -16,7 +16,7 @@ The full detailed analysis of the distributed implementation, including performa
 
 [![Report Preview](https://github.com/Jen0821/Scotland-Yard-Board-Game/raw/main/preview.jpg)](https://github.com/Jen0821/Scotland-Yard-Board-Game/blob/main/report.pdf)
 
-Click the image to view the full report.
+**Click the image to view the full report.**
 
 ## 📜 Game Rules & Mechanics
 
