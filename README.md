@@ -61,11 +61,15 @@ For comprehensive information regarding the original board game rules, please re
 
 The initial screen for configuring players, setting Mr.X and Detectives to either AI or Human control.
 
+![screenshot1](https://github.com/Jen0821/Scotland-Yard-Board-Game/blob/main/Screenshot1.jpg)
+
 > **Description:** Allows configuration of players (Mr.X and Detectives) with options for AI or Human control. Move history (traces) are automatically enabled when an AI is active.
 
 ### 2\. Game In Progress
 
 The main game interface showing the London map, player positions, and ticket information.
+
+![screenshot1](https://github.com/Jen0821/Scotland-Yard-Board-Game/blob/main/Screenshot2.jpg)
 
 > **Description:** Displays the game board, ticket counts, and the travel log for Mr.X. The current player's available moves are highlighted on the map.
 
