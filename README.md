@@ -14,11 +14,9 @@ This repository contains the source code for an interactive digital version of t
 
 The full detailed analysis of the distributed implementation, including performance benchmarks and design rationale, is available in the final report.
 
-- [Report Preview](https://github.com/Jen0821/Scotland-Yard-Board-Game/blob/main/preview.pdf)  
-  A quick preview of the report.
+[![Report Preview](https://github.com/Jen0821/Scotland-Yard-Board-Game/raw/main/preview.png)](https://github.com/Jen0821/Scotland-Yard-Board-Game/blob/main/report.pdf)
 
-- [Full Report](https://github.com/Jen0821/Scotland-Yard-Board-Game/blob/main/report.pdf)  
-  Access the full report here.
+Click the image to view the full report.
 
 ## 📜 Game Rules & Mechanics
 
