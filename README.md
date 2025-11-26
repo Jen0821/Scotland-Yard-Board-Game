@@ -8,7 +8,7 @@ This repository contains the source code for an interactive digital version of t
 
   * **Core Game Model:** Implemented all core game components including player moves (single, double, secret), ticket management, and win conditions.
   * **AI Extension:** Developed an open-ended AI extension using the **MiniMax algorithm** with **Alpha-Beta pruning** to enhance performance by reducing the number of nodes evaluated in the game tree.
-  * **Design Patterns:** Utilized the **Visitor design pattern** to handle `SingleMove` and `DoubleMove` cases separately, leveraging encapsulation.
+  * **Design Patterns:** Utilised the **Visitor design pattern** to handle `SingleMove` and `DoubleMove` cases separately, leveraging encapsulation.
 
 ## 📝 Final Coursework Report
 
@@ -33,11 +33,11 @@ The game is played on a map of London with two main roles: **Mr. X** and **Detec
 * **Detectives (Investigators):**
     * Move openly across the board.
     * Can only make single moves.
-    * When a Detective uses a ticket (Taxi, Bus, Underground), that ticket is given to Mr. X, who can reuse it.
+    * When a Detective uses a ticket (Taxi, Bus, or Underground), that ticket is given to Mr. X, who can reuse it.
 
 ### 2. Tickets and Transportation
 
-All moves utilize tickets, which correspond to the transport types available on the game board:
+All moves utilise tickets, which correspond to the transport types available on the game board:
 
 * **Standard:** Taxi, Bus, Underground.
 * **Special:** Double (allows two moves in one turn), Secret (can be used for any transport type, and is not revealed in the travel log).
@@ -75,7 +75,7 @@ The main game interface showing the London map, player positions, and ticket inf
 
 ### 3\. AI Performance Demonstration (Recommended)
 
-This screenshot emphasizes the project's focus on the AI by capturing the calculation state and, if available, performance metrics.
+This screenshot emphasises the project's focus on AI by capturing the calculation state and, if available, performance metrics.
 
 > **Description:** Captures the moment the AI is calculating its move (Status: Waiting for move [MRX]). If debug logs were included, the IntelliJ console would display **search depth, number of nodes explored, and calculation time**, showcasing the efficiency of the MiniMax algorithm.
 
