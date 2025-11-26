@@ -1,7 +1,3 @@
-Sure, here is the README file structure and content, written in English and Markdown format, integrating your successful run screenshots and project details.
-
------
-
 ## 🎲 Scotland Yard AI Board Game
 
 [](https://www.google.com/search?q=LICENSE)
@@ -14,7 +10,51 @@ This repository contains the source code for an interactive digital version of t
   * **AI Extension:** Developed an open-ended AI extension using the **MiniMax algorithm** with **Alpha-Beta pruning** to enhance performance by reducing the number of nodes evaluated in the game tree.
   * **Design Patterns:** Utilized the **Visitor design pattern** to handle `SingleMove` and `DoubleMove` cases separately, leveraging encapsulation.
 
------
+## 📝 Final Coursework Report
+
+The full detailed analysis of the distributed implementation, including performance benchmarks and design rationale, is available in the final report.
+
+- [Report Preview](https://github.com/Jen0821/Scotland-Yard-Board-Game/blob/main/preview.pdf)  
+  A quick preview of the report.
+
+- [Full Report](https://github.com/Jen0821/Scotland-Yard-Board-Game/blob/main/report.pdf)  
+  Access the full report here.
+
+## 📜 Game Rules & Mechanics
+
+The game is played on a map of London with two main roles: **Mr. X** and **Detectives**.
+
+### 1. Player Roles and Movement
+
+* **Mr. X (Fugitive):**
+    * Mr. X moves secretly across the board.
+    * Can make single moves using a standard ticket (Taxi, Bus, Underground).
+    * Is the only player who can make a **Double Move** (using two consecutive tickets).
+    * Can use **Secret Tickets** for any type of transport.
+    * Mr. X's location is revealed at specific round intervals, remaining hidden during other rounds.
+* **Detectives (Investigators):**
+    * Move openly across the board.
+    * Can only make single moves.
+    * When a Detective uses a ticket (Taxi, Bus, Underground), that ticket is given to Mr. X, who can reuse it.
+
+### 2. Tickets and Transportation
+
+All moves utilize tickets, which correspond to the transport types available on the game board:
+
+* **Standard:** Taxi, Bus, Underground.
+* **Special:** Double (allows two moves in one turn), Secret (can be used for any transport type, and is not revealed in the travel log).
+
+### 3. Objective and Winning Conditions
+
+* **Detectives Win:** If any Detective lands on the same location as Mr. X, successfully catching the fugitive.
+* **Mr. X Wins:** If Mr. X successfully evades the Detectives for all 24 rounds of the game (i.e., his move log is full).
+
+### Official Rules
+
+For comprehensive information regarding the original board game rules, please refer to the documentation provided by the project authors:
+
+* [Game Rule Preview (JP2)](https://github.com/Jen0821/Scotland-Yard-Board-Game/blob/main/26646%20anl%202050897_2.jp2)
+* [Full Rule Document (PDF)](https://github.com/Jen0821/Scotland-Yard-Board-Game/blob/main/26646%20anl%202050897_2.pdf)
 
 ## 🖼️ Project Screenshots
 
@@ -35,8 +75,6 @@ The main game interface showing the London map, player positions, and ticket inf
 This screenshot emphasizes the project's focus on the AI by capturing the calculation state and, if available, performance metrics.
 
 > **Description:** Captures the moment the AI is calculating its move (Status: Waiting for move [MRX]). If debug logs were included, the IntelliJ console would display **search depth, number of nodes explored, and calculation time**, showcasing the efficiency of the MiniMax algorithm.
-
------
 
 ## 🛠️ Setup and Execution Guide
 
@@ -74,8 +112,6 @@ To successfully run the GUI (JavaFX), the following steps are mandatory:
 
   * Locate the **`Main.java`** class in the project.
   * Click the **Run button** (green play button) in IntelliJ IDEA to execute the program.
-
------
 
 ## 💡 Limitations and Improvements
 
