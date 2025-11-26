@@ -22,6 +22,9 @@ The full detailed analysis of the distributed implementation, including performa
 
 The game is played on a map of London with two main roles: **Mr. X** and **Detectives**.
 
+[![RuleBook Preview](https://github.com/Jen0821/Scotland-Yard-Board-Game/blob/main/26646%20anl%202050897_2.jp2)](https://github.com/Jen0821/Scotland-Yard-Board-Game/blob/main/26646%20anl%202050897_2.pdf)
+**Click the image to view the full report.**
+
 ### 1. Player Roles and Movement
 
 * **Mr. X (Fugitive):**
